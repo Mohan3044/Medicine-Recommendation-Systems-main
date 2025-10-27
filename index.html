@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Recommendation System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💊 Medicine Recommendation System</h1>
+        <label for="userInput">Select a Medicine:</label>
+        <select id="userInput">
+            <option value="">-- Select a medicine --</option>
+            {% for medicine in medicines %}
+                <option value="{{ medicine }}">{{ medicine }}</option>
+            {% endfor %}
+        </select>
+        <button onclick="getRecommendation()">Recommend</button>
+
+        <div class="results" id="results">
+            <!-- Recommended medicines will appear here -->
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
