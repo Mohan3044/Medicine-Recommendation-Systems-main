@@ -1,7 +1,5 @@
 # Drug Recommendation System in Medical Emergencies using Machine Learning
 
-# Video- https://www.loom.com/share/3ccb67df647548328340e6fb152d4ce5?sid=1c8478fa-889b-478a-9b08-420f22054ecd
-
 
 ## Overview
 This project develops a machine learning-based drug recommendation system aimed at providing quick and reliable medical prescriptions during emergencies. Utilizing advanced computational methods, the system predicts the most effective drug combinations based on a patient’s health state, leveraging vast amounts of Electronic Health Records (EHRs).
